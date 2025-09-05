@@ -7,7 +7,7 @@ export default function CotizarPage() {
   return (
     <>
       <TransitionPage />
-      <div className="relative min-h-screen w-full bg-black text-white overflow-hidden flex flex-col items-center justify-center px-6">
+      <div className="relative min-h-screen w-full text-white overflow-hidden flex flex-col items-center justify-center px-6">
         {/* Fondo de partículas */}
         <div className="absolute inset-0 -z-10 pointer-events-none">
           <CoverStars />
